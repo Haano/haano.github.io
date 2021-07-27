@@ -1,3 +1,3 @@
 # haano.github.io
 My site
-haano.github.io/Main.html
+[a link](haano.github.io/Main.html)
