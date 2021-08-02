@@ -1,0 +1,44 @@
+table,
+td,
+th {
+    border: 1px solid black;
+    background-color: blanchedalmond;
+}
+
+[href="Main.html"] {
+    color: orange;
+}
+
+[colspan="2"] {
+    background-color: lightcoral;
+}
+
+.head {
+    margin-left: 10vmax;
+    margin-right: 10vmax;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    background-color: rgb(216, 255, 216);
+}
+
+.main {
+    margin-left: 10vmax;
+    margin-right: 10vmax;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    background-color: rgb(224, 255, 243);
+}
+
+.osn {
+    margin-left: 10vmax;
+    padding: 10%;
+    text-align: center;
+    width: 50%;
+    background-color: lightcyan;
+}
+
+.test h1 {
+    text-align: center;
+}
