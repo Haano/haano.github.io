@@ -15,8 +15,6 @@
     <script src="js/GLTFLoader.js"></script>
     <script src="js/OrbitControls.js"></script>
     <script>
-        //let renderer;
-        // Our Javascript will go here.
         const scene = new THREE.Scene();
         scene.background = new THREE.Color(0x101000);
         const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
@@ -25,9 +23,6 @@
         camera.position.y = 2;
         camera.position.z = 5;
 
-        //controls = new THREE.OrbitControls(camera);
-
-        // controls.addEventListener('change', renderer);
 
         nlight = new THREE.AmbientLight(0x404040, 100);
         scene.add(nlight);
@@ -58,7 +53,6 @@
             renderer.render(scene, camera);
             requestAnimationFrame(animate);
         }
-        //  init();
     </script>
 </body>
 
