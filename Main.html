@@ -52,6 +52,7 @@
         function animate() {
             renderer.render(scene, camera);
             requestAnimationFrame(animate);
+            scene.rotation.y += 0.001;
         }
     </script>
 </body>
