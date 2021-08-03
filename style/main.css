@@ -1,8 +1,6 @@
-table,
-td,
-th {
-    border: 1px solid black;
-    background-color: blanchedalmond;
+body {
+    background-color: rgb(228, 255, 235);
+    font-size: 20px;
 }
 
 [href="Main.html"] {
@@ -13,22 +11,40 @@ th {
     background-color: lightcoral;
 }
 
+hr {
+    border: none;
+    /* Убираем границу для браузера Firefox */
+    color: rgb(3, 97, 0);
+    /* Цвет линии для остальных браузеров */
+    background-color: rgb(0, 126, 10);
+    /* Цвет линии для браузера Firefox и Opera */
+    height: 10px;
+    size: 0px;
+    border-radius: 60px;
+    /* Толщина линии */
+}
+
 .head {
     margin-left: 10vmax;
     margin-right: 10vmax;
     padding-left: 10%;
     padding-right: 10%;
     text-align: center;
-    background-color: rgb(216, 255, 216);
+    background-color: rgb(101, 255, 101);
+    Border-radius: 50px;
+    border: 1px solid #70fb77;
 }
 
 .main {
-    margin-left: 10vmax;
+    /*margin-left: 10vmax;
     margin-right: 10vmax;
     padding-left: 10%;
-    padding-right: 10%;
+    padding-right: 1%;*/
     text-align: center;
-    background-color: rgb(224, 255, 243);
+    background-color: rgb(244, 255, 145);
+    border-radius: 100px;
+    margin: 20px 20% 0px 20%;
+    padding: 5px;
 }
 
 .osn {
@@ -41,4 +57,45 @@ th {
 
 .test h1 {
     text-align: center;
+}
+
+.test {
+    text-align: center;
+    background-color: rgb(128, 215, 255);
+    border-radius: 10px;
+    margin: 20px 5% 0px 5%;
+    padding: 5px;
+}
+
+.test table,
+th,
+td {
+    font-family: 'Rock Salt', cursive;
+    padding: 20px 15px;
+    caption-side: bottom;
+    color: #666;
+    text-align: right;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgb(185, 255, 252);
+}
+
+.test thead {
+    font-style: oblique;
+}
+
+.btn {
+    display: inline-block;
+    /* Строчно-блочный элемент */
+    background: #4043ff;
+    /* Серый цвет фона */
+    color: #fff;
+    /* Белый цвет текста */
+    padding: 1rem 1.5rem;
+    /* Поля вокруг текста */
+    text-decoration: none;
+    /* Убираем подчёркивание */
+    border-radius: 30px;
+    /* Скругляем уголки */
 }
