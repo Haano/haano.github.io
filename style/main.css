@@ -3,8 +3,15 @@ body {
     font-size: 20px;
 }
 
-[href="Main.html"] {
-    color: orange;
+.head {
+    margin-left: 10vmax;
+    margin-right: 10vmax;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    background-color: rgb(101, 255, 101);
+    Border-radius: 50px;
+    border: 1px solid #70fb77;
 }
 
 [colspan="2"] {
@@ -22,17 +29,6 @@ hr {
     size: 0px;
     border-radius: 60px;
     /* Толщина линии */
-}
-
-.head {
-    margin-left: 10vmax;
-    margin-right: 10vmax;
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: center;
-    background-color: rgb(101, 255, 101);
-    Border-radius: 50px;
-    border: 1px solid #70fb77;
 }
 
 .main {
@@ -68,17 +64,20 @@ hr {
 }
 
 .test table,
-th,
-td {
-    margin: auto;
+td,
+th {
+    border-collapse: collapse;
     font-family: 'Rock Salt', cursive;
     padding: 20px 15px;
-    caption-side: bottom;
-    color: #666;
-    border-collapse: collapse;
+    color: rgb(59, 59, 59);
     width: 100%;
     border: 2px solid black;
-    background-color: rgb(185, 255, 252);
+    background-color: rgb(248, 248, 248);
+}
+
+.table2 {
+    font-size: 20px;
+    background-color: lightcoral;
 }
 
 .test thead {
