@@ -63,6 +63,14 @@ hr {
     padding: 5px;
 }
 
+.jsdiv {
+    text-align: center;
+    background-color: rgb(255, 247, 128);
+    border-radius: 10px;
+    margin: 20px 5% 0px 5%;
+    padding: 5px;
+}
+
 .test table,
 td,
 th {
